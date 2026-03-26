@@ -153,6 +153,17 @@ class SweetspotTelegramBot:
                 return True
         return False
     
+    def delete_saved_search(self, search_id: str):
+        """Delete a saved search completely"""
+        if search_id in self.saved_searches:
+            filename = os.path.join(self.searches_folder, f"{search_id}.json")
+            if os.path.exists(filename):
+                os.remove(filename)
+                del self.saved_searches[search_id]
+                self.logger.info(f"Saved search deleted: {search_id}")
+                return True
+        return False
+    
     def setup_handlers(self):
         """Setup telegram command handlers"""
         # Basic commands
@@ -514,7 +525,6 @@ To update email settings, edit the email_config.json file.
         if self.email_config['email_sender']:
             await update.message.reply_text(
                 f"📧 Optional: Enter email for notifications (or 'skip' to disable):\n"
-                f"Default: {self.email_config['default_recipient']}"
             )
             return EMAIL_RECIPIENT
         else:
@@ -1116,9 +1126,14 @@ Best options:
         except Exception as e:
             self.logger.error(f"Search error: {e}")
         finally:
-            # Remove from active searches when done
+            # Remove from active searches and delete saved search when done
             if self.search_id in self.telegram_bot.active_searches:
                 del self.telegram_bot.active_searches[self.search_id]
+            
+            # Delete the saved search so the name can be reused
+            self.telegram_bot.delete_saved_search(self.search_id)
+            
+            self.logger.info(f"Search '{self.search_id}' has been removed and name is now available for reuse")
             
             # Send completion notification via Telegram
             if self.chat_id:
