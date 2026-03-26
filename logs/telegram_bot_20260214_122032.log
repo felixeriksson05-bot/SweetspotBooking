@@ -1,0 +1,5 @@
+2026-02-14 12:20:32,959 - INFO - Starting Sweetspot Telegram Bot...
+2026-02-14 12:20:32,959 - INFO - Bot token: 8074227016... (hidden)
+2026-02-14 12:20:32,959 - INFO - Email configured: Yes
+2026-02-14 12:20:32,959 - INFO - Saved searches: 2
+2026-02-14 12:20:33,168 - INFO - HTTP Request: POST https://api.telegram.org/bot8074227016::AAF7g_KVy1Km3d6Dxnxhy3CFkrWzTh81VN0/getMe "HTTP/1.1 404 Not Found"

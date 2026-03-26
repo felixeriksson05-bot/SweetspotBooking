@@ -1,0 +1,28 @@
+{
+  "course_uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+  "search_criteria": {
+    "date": "2026-03-02",
+    "start_time": "10:00",
+    "end_time": "18:00",
+    "min_players": 1,
+    "max_players": 1,
+    "preferred_times": [],
+    "max_price": null
+  },
+  "monitoring": {
+    "check_interval_minutes": 5,
+    "max_search_duration_hours": 24,
+    "notify_on_found": true,
+    "stop_on_first_found": true
+  },
+  "notification": {
+    "email_enabled": true,
+    "email_recipient": "felix.eriksson.05@gmail.com"
+  },
+  "advanced": {
+    "save_all_responses": false,
+    "beep_on_found": true,
+    "retry_on_error": true,
+    "max_retries": 3
+  }
+}

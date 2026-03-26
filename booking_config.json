@@ -1,0 +1,39 @@
+{
+  "course_uuid": "e026ddf3-2814-4b50-ad95-eb1532e4a83f",
+  "search_criteria": {
+    "date": "2026-02-10",
+    "start_time": "13:00",
+    "end_time": "18:00",
+    "min_players": 1,
+    "max_players": 4,
+    "preferred_times": [
+      "14:00",
+      "15:00",
+      "16:00"
+    ],
+    "max_price": null,
+    "weekdays_only": false,
+    "weekends_only": false
+  },
+  "monitoring": {
+    "check_interval_minutes": 5,
+    "max_search_duration_hours": 24,
+    "notify_on_found": true,
+    "stop_on_first_found": true
+  },
+  "notification": {
+    "email_enabled": true,
+    "email_sender": "golfbookingbot@gmail.com",
+    "email_password": "emst bopj txhj fmmo",
+    "email_recipient": "felix.eriksson.05@gmail.com",
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "use_app_password": true
+  },
+  "advanced": {
+    "save_all_responses": false,
+    "beep_on_found": true,
+    "retry_on_error": true,
+    "max_retries": 3
+  }
+}

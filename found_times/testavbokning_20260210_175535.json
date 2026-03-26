@@ -1,0 +1,50 @@
+{
+  "search_id": "testavbokning",
+  "found_at": "2026-02-10T17:55:35.684673",
+  "search_count": 3,
+  "tee_times": [
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-02-25T15:00:00+00:00",
+      "to": "2026-02-25T16:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "fb3cf279-23b0-40f6-8a2b-81f125afa2b4",
+        "id": 966,
+        "created_at": "2022-09-26T10:31:36+00:00",
+        "updated_at": "2022-09-28T09:48:14+00:00"
+      },
+      "created_at": "2025-12-01T12:35:02+00:00",
+      "updated_at": "2026-02-10T16:54:48+00:00",
+      "uuid": "cde42766-e916-44d0-a7cb-c27a087fc7bc",
+      "id": 42458647,
+      "players": 0,
+      "local_time": "16:00",
+      "local_datetime": "2026-02-25T16:00:00+00:00"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+2026-02-10 12:38:22,202 - INFO - Search #1 - 12:38:22
+2026-02-10 12:38:22,609 - INFO - Found 31 available tee times!
+2026-02-10 12:38:23,610 - INFO - NOTIFICATION: Found 31 tee times
+2026-02-10 12:38:24,199 - ERROR - Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 2adb3069b0e04-59e44e21c9fsm3250704e87.77 - gsmtp')
+2026-02-10 12:38:24,200 - ERROR - Search loop error: Object of type datetime is not JSON serializable

@@ -1,0 +1,7 @@
+{
+  "email_sender": "golfbookingbot@gmail.com",
+  "email_password": "emst bopj txhj fmmo",
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 587,
+  "default_recipient": "felix.eriksson.05@gmail.com"
+}

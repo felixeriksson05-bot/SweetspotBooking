@@ -1,0 +1,50 @@
+{
+  "search_id": "GolfIndoor",
+  "found_at": "2026-02-10T13:05:16.218746",
+  "search_count": 1,
+  "tee_times": [
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-02-24T16:00:00+00:00",
+      "to": "2026-02-24T17:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "d07fa9b2-8b0e-4467-82e1-f2be31059349",
+        "id": 963,
+        "created_at": "2022-09-26T10:31:09+00:00",
+        "updated_at": "2025-10-07T12:40:50+00:00"
+      },
+      "created_at": "2025-12-01T12:35:02+00:00",
+      "updated_at": "2026-01-26T18:06:02+00:00",
+      "uuid": "7b5a4fe0-142c-4b13-8a59-6ae8d068e343",
+      "id": 42459343,
+      "players": 0,
+      "local_time": "17:00",
+      "local_datetime": "2026-02-24T17:00:00+00:00"
+    }
+  ]
+}

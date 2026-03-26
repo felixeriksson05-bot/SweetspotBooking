@@ -1,0 +1,910 @@
+{
+  "search_id": "Indoorgolf",
+  "found_at": "2026-02-10T17:47:42.654302",
+  "search_count": 1,
+  "tee_times": [
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T09:00:00+00:00",
+      "to": "2026-03-02T10:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "6aa9c6d0-0c8c-4d4a-a50b-cfd0b9e61aaf",
+        "id": 964,
+        "created_at": "2022-09-26T10:31:25+00:00",
+        "updated_at": "2022-09-28T09:47:58+00:00"
+      },
+      "created_at": "2025-12-01T12:36:29+00:00",
+      "updated_at": "2025-12-01T13:26:20+00:00",
+      "uuid": "a4a843a1-fbb4-459b-8162-43bfdc4520fd",
+      "id": 42460045,
+      "players": 0,
+      "local_time": "10:00",
+      "local_datetime": "2026-03-02T10:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T09:00:00+00:00",
+      "to": "2026-03-02T10:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "eabf91ea-cf16-4075-b4ad-83606022c9f3",
+        "id": 965,
+        "created_at": "2022-09-26T10:31:31+00:00",
+        "updated_at": "2022-09-28T09:48:07+00:00"
+      },
+      "created_at": "2025-12-01T12:36:30+00:00",
+      "updated_at": "2025-12-01T13:26:44+00:00",
+      "uuid": "499bd453-9260-44e9-8816-9dac93fad877",
+      "id": 42460789,
+      "players": 0,
+      "local_time": "10:00",
+      "local_datetime": "2026-03-02T10:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T11:00:00+00:00",
+      "to": "2026-03-02T12:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "6aa9c6d0-0c8c-4d4a-a50b-cfd0b9e61aaf",
+        "id": 964,
+        "created_at": "2022-09-26T10:31:25+00:00",
+        "updated_at": "2022-09-28T09:47:58+00:00"
+      },
+      "created_at": "2025-12-01T12:36:29+00:00",
+      "updated_at": "2025-12-01T13:26:20+00:00",
+      "uuid": "5057af41-8629-41cb-adda-f4cea417f02d",
+      "id": 42460047,
+      "players": 0,
+      "local_time": "12:00",
+      "local_datetime": "2026-03-02T12:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T11:00:00+00:00",
+      "to": "2026-03-02T12:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "eabf91ea-cf16-4075-b4ad-83606022c9f3",
+        "id": 965,
+        "created_at": "2022-09-26T10:31:31+00:00",
+        "updated_at": "2022-09-28T09:48:07+00:00"
+      },
+      "created_at": "2025-12-01T12:36:30+00:00",
+      "updated_at": "2025-12-01T13:26:44+00:00",
+      "uuid": "e632e80f-369f-429f-858d-d841fe5126ca",
+      "id": 42460791,
+      "players": 0,
+      "local_time": "12:00",
+      "local_datetime": "2026-03-02T12:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T12:00:00+00:00",
+      "to": "2026-03-02T13:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "6aa9c6d0-0c8c-4d4a-a50b-cfd0b9e61aaf",
+        "id": 964,
+        "created_at": "2022-09-26T10:31:25+00:00",
+        "updated_at": "2022-09-28T09:47:58+00:00"
+      },
+      "created_at": "2025-12-01T12:36:29+00:00",
+      "updated_at": "2025-12-01T13:26:20+00:00",
+      "uuid": "3eaaa874-73ad-462c-a300-5df045dea26b",
+      "id": 42460048,
+      "players": 0,
+      "local_time": "13:00",
+      "local_datetime": "2026-03-02T13:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T12:00:00+00:00",
+      "to": "2026-03-02T13:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "eabf91ea-cf16-4075-b4ad-83606022c9f3",
+        "id": 965,
+        "created_at": "2022-09-26T10:31:31+00:00",
+        "updated_at": "2022-09-28T09:48:07+00:00"
+      },
+      "created_at": "2025-12-01T12:36:30+00:00",
+      "updated_at": "2025-12-01T13:26:44+00:00",
+      "uuid": "59e75a51-1cba-4bcb-a935-6b97f5ac64b8",
+      "id": 42460792,
+      "players": 0,
+      "local_time": "13:00",
+      "local_datetime": "2026-03-02T13:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T13:00:00+00:00",
+      "to": "2026-03-02T14:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "6aa9c6d0-0c8c-4d4a-a50b-cfd0b9e61aaf",
+        "id": 964,
+        "created_at": "2022-09-26T10:31:25+00:00",
+        "updated_at": "2022-09-28T09:47:58+00:00"
+      },
+      "created_at": "2025-12-01T12:36:29+00:00",
+      "updated_at": "2025-12-01T13:26:20+00:00",
+      "uuid": "0c260de9-040c-414d-9cdf-17251207bf7a",
+      "id": 42460049,
+      "players": 0,
+      "local_time": "14:00",
+      "local_datetime": "2026-03-02T14:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T13:00:00+00:00",
+      "to": "2026-03-02T14:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "eabf91ea-cf16-4075-b4ad-83606022c9f3",
+        "id": 965,
+        "created_at": "2022-09-26T10:31:31+00:00",
+        "updated_at": "2022-09-28T09:48:07+00:00"
+      },
+      "created_at": "2025-12-01T12:36:30+00:00",
+      "updated_at": "2025-12-01T13:26:44+00:00",
+      "uuid": "034abe60-4c3c-45a0-8cd5-8ee261d0f735",
+      "id": 42460793,
+      "players": 0,
+      "local_time": "14:00",
+      "local_datetime": "2026-03-02T14:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T13:00:00+00:00",
+      "to": "2026-03-02T14:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "fb3cf279-23b0-40f6-8a2b-81f125afa2b4",
+        "id": 966,
+        "created_at": "2022-09-26T10:31:36+00:00",
+        "updated_at": "2022-09-28T09:48:14+00:00"
+      },
+      "created_at": "2025-12-01T12:36:30+00:00",
+      "updated_at": "2025-12-01T13:27:11+00:00",
+      "uuid": "e81b5f4a-22fb-404b-8b43-aea97b6d2611",
+      "id": 42461537,
+      "players": 0,
+      "local_time": "14:00",
+      "local_datetime": "2026-03-02T14:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T14:00:00+00:00",
+      "to": "2026-03-02T15:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "6aa9c6d0-0c8c-4d4a-a50b-cfd0b9e61aaf",
+        "id": 964,
+        "created_at": "2022-09-26T10:31:25+00:00",
+        "updated_at": "2022-09-28T09:47:58+00:00"
+      },
+      "created_at": "2025-12-01T12:36:30+00:00",
+      "updated_at": "2025-12-01T13:26:20+00:00",
+      "uuid": "4055e573-122c-4000-a129-31dba936ce49",
+      "id": 42460050,
+      "players": 0,
+      "local_time": "15:00",
+      "local_datetime": "2026-03-02T15:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T14:00:00+00:00",
+      "to": "2026-03-02T15:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "eabf91ea-cf16-4075-b4ad-83606022c9f3",
+        "id": 965,
+        "created_at": "2022-09-26T10:31:31+00:00",
+        "updated_at": "2022-09-28T09:48:07+00:00"
+      },
+      "created_at": "2025-12-01T12:36:30+00:00",
+      "updated_at": "2025-12-01T13:26:44+00:00",
+      "uuid": "378585c5-0551-4f6d-b5e6-f764e74a1a74",
+      "id": 42460794,
+      "players": 0,
+      "local_time": "15:00",
+      "local_datetime": "2026-03-02T15:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T14:00:00+00:00",
+      "to": "2026-03-02T15:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "fb3cf279-23b0-40f6-8a2b-81f125afa2b4",
+        "id": 966,
+        "created_at": "2022-09-26T10:31:36+00:00",
+        "updated_at": "2022-09-28T09:48:14+00:00"
+      },
+      "created_at": "2025-12-01T12:36:30+00:00",
+      "updated_at": "2025-12-01T13:27:11+00:00",
+      "uuid": "242b449e-480b-48a7-914f-c66bde8eba3f",
+      "id": 42461538,
+      "players": 0,
+      "local_time": "15:00",
+      "local_datetime": "2026-03-02T15:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T15:00:00+00:00",
+      "to": "2026-03-02T16:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "6aa9c6d0-0c8c-4d4a-a50b-cfd0b9e61aaf",
+        "id": 964,
+        "created_at": "2022-09-26T10:31:25+00:00",
+        "updated_at": "2022-09-28T09:47:58+00:00"
+      },
+      "created_at": "2025-12-01T12:36:30+00:00",
+      "updated_at": "2025-12-01T13:26:20+00:00",
+      "uuid": "ea66d347-b928-4306-9570-323a463cd537",
+      "id": 42460051,
+      "players": 0,
+      "local_time": "16:00",
+      "local_datetime": "2026-03-02T16:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T15:00:00+00:00",
+      "to": "2026-03-02T16:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "eabf91ea-cf16-4075-b4ad-83606022c9f3",
+        "id": 965,
+        "created_at": "2022-09-26T10:31:31+00:00",
+        "updated_at": "2022-09-28T09:48:07+00:00"
+      },
+      "created_at": "2025-12-01T12:36:30+00:00",
+      "updated_at": "2025-12-01T13:26:44+00:00",
+      "uuid": "962a98e7-e557-402e-9624-c8ac622d3250",
+      "id": 42460795,
+      "players": 0,
+      "local_time": "16:00",
+      "local_datetime": "2026-03-02T16:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T15:00:00+00:00",
+      "to": "2026-03-02T16:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "d07fa9b2-8b0e-4467-82e1-f2be31059349",
+        "id": 963,
+        "created_at": "2022-09-26T10:31:09+00:00",
+        "updated_at": "2025-10-07T12:40:50+00:00"
+      },
+      "created_at": "2025-12-01T12:36:30+00:00",
+      "updated_at": "2025-12-01T13:26:51+00:00",
+      "uuid": "ca879d45-e5a0-4141-a065-e9dca8225f49",
+      "id": 42461007,
+      "players": 0,
+      "local_time": "16:00",
+      "local_datetime": "2026-03-02T16:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T15:00:00+00:00",
+      "to": "2026-03-02T16:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "fb3cf279-23b0-40f6-8a2b-81f125afa2b4",
+        "id": 966,
+        "created_at": "2022-09-26T10:31:36+00:00",
+        "updated_at": "2022-09-28T09:48:14+00:00"
+      },
+      "created_at": "2025-12-01T12:36:30+00:00",
+      "updated_at": "2025-12-01T13:27:11+00:00",
+      "uuid": "265305c6-90b5-476a-8f5f-eff8ef98fe82",
+      "id": 42461539,
+      "players": 0,
+      "local_time": "16:00",
+      "local_datetime": "2026-03-02T16:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T16:00:00+00:00",
+      "to": "2026-03-02T17:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "6aa9c6d0-0c8c-4d4a-a50b-cfd0b9e61aaf",
+        "id": 964,
+        "created_at": "2022-09-26T10:31:25+00:00",
+        "updated_at": "2022-09-28T09:47:58+00:00"
+      },
+      "created_at": "2025-12-01T12:36:30+00:00",
+      "updated_at": "2025-12-01T13:26:20+00:00",
+      "uuid": "44c8375a-0813-4150-aabc-6aa959b98d0b",
+      "id": 42460052,
+      "players": 0,
+      "local_time": "17:00",
+      "local_datetime": "2026-03-02T17:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T16:00:00+00:00",
+      "to": "2026-03-02T17:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "0e6ddac5-8748-411e-842c-c92bcdf26b93",
+        "id": 967,
+        "created_at": "2022-09-26T10:31:42+00:00",
+        "updated_at": "2022-09-28T09:48:24+00:00"
+      },
+      "created_at": "2025-12-01T12:36:30+00:00",
+      "updated_at": "2025-12-01T13:26:32+00:00",
+      "uuid": "f39ae6d8-3217-445e-a5b8-afa814d578e6",
+      "id": 42460424,
+      "players": 0,
+      "local_time": "17:00",
+      "local_datetime": "2026-03-02T17:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T16:00:00+00:00",
+      "to": "2026-03-02T17:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "d07fa9b2-8b0e-4467-82e1-f2be31059349",
+        "id": 963,
+        "created_at": "2022-09-26T10:31:09+00:00",
+        "updated_at": "2025-10-07T12:40:50+00:00"
+      },
+      "created_at": "2025-12-01T12:36:30+00:00",
+      "updated_at": "2025-12-01T13:26:51+00:00",
+      "uuid": "9563c872-0aec-405f-b242-8b4f01e41fd0",
+      "id": 42461008,
+      "players": 0,
+      "local_time": "17:00",
+      "local_datetime": "2026-03-02T17:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T16:00:00+00:00",
+      "to": "2026-03-02T17:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "fb3cf279-23b0-40f6-8a2b-81f125afa2b4",
+        "id": 966,
+        "created_at": "2022-09-26T10:31:36+00:00",
+        "updated_at": "2022-09-28T09:48:14+00:00"
+      },
+      "created_at": "2025-12-01T12:36:30+00:00",
+      "updated_at": "2026-02-09T17:23:07+00:00",
+      "uuid": "df9b21ca-3e88-4771-b4f2-9c69f3a09f98",
+      "id": 42461540,
+      "players": 0,
+      "local_time": "17:00",
+      "local_datetime": "2026-03-02T17:00:00+00:00"
+    },
+    {
+      "price": {
+        "amount": 32000,
+        "currency": "SEK"
+      },
+      "course": {
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832",
+        "id": 1180
+      },
+      "from": "2026-03-02T17:00:00+00:00",
+      "to": "2026-03-02T18:00:00+00:00",
+      "interval": 60,
+      "available_slots": 1,
+      "max_slots": 1,
+      "price_per_extra_player": 0,
+      "notes": null,
+      "is_prime_time": false,
+      "category": {
+        "name": "Öppen",
+        "description": "Denna starttid kan bokas av alla.",
+        "color": "#a7dec4",
+        "is_use_same_name": true,
+        "custom_name": "",
+        "custom_description": "",
+        "display": "default",
+        "tee_time_bookable": true,
+        "uuid": "956128b9-4706-4e4e-8bd6-03115d67a89b",
+        "id": 2435
+      },
+      "space": {
+        "uuid": "6aa9c6d0-0c8c-4d4a-a50b-cfd0b9e61aaf",
+        "id": 964,
+        "created_at": "2022-09-26T10:31:25+00:00",
+        "updated_at": "2022-09-28T09:47:58+00:00"
+      },
+      "created_at": "2025-12-01T12:36:30+00:00",
+      "updated_at": "2025-12-01T13:26:20+00:00",
+      "uuid": "359c439b-3d52-4493-a118-23a8b3ba9fe2",
+      "id": 42460053,
+      "players": 0,
+      "local_time": "18:00",
+      "local_datetime": "2026-03-02T18:00:00+00:00"
+    }
+  ]
+}

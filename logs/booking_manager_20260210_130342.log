@@ -1,0 +1,19 @@
+2026-02-10 13:04:11,605 - INFO - Starting search: Testsearch
+2026-02-10 13:04:11,607 - INFO - Search #1
+2026-02-10 13:04:11,891 - INFO - Found 7 tee times
+2026-02-10 13:04:14,624 - INFO - Email sent to felix.eriksson.05@gmail.com
+2026-02-10 13:04:14,625 - INFO - Stopping search (first found)
+2026-02-10 13:04:14,625 - INFO - Search completed: 1 searches, 1 found
+2026-02-10 13:05:12,137 - INFO - Starting search: GolfIndoor
+2026-02-10 13:05:12,138 - INFO - Search #1
+2026-02-10 13:05:12,566 - INFO - Found 1 tee times
+2026-02-10 13:05:16,218 - INFO - Email sent to felix.eriksson.05@gmail.com
+2026-02-10 13:05:16,219 - INFO - Stopping search (first found)
+2026-02-10 13:05:16,219 - INFO - Search completed: 1 searches, 1 found
+2026-02-10 13:40:56,503 - INFO - Starting search: TestFullBooking
+2026-02-10 13:40:56,504 - INFO - Search #1
+2026-02-10 13:42:56,909 - INFO - Search #2
+2026-02-10 13:44:57,140 - INFO - Search #3
+2026-02-10 13:46:57,405 - INFO - Search #4
+2026-02-10 13:48:57,796 - INFO - Search #5
+2026-02-10 13:50:58,222 - INFO - Search completed: 5 searches, 0 found
