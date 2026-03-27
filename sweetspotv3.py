@@ -41,12 +41,24 @@ EMAIL_CONFIG = {
     "default_recipient": ""  # Default recipient
 }
 
+# Course configurations
+COURSES = {
+    "lindo_park_9_hole": {
+        "name": "🌳 Lindö Park 9 Hole",
+        "uuid": "15a56a35-ec3f-4067-935f-45b38530c52e"
+    },
+    "golfstar_indoor": {
+        "name": "🏠 GolfStar Indoor",
+        "uuid": "92b9b210-c40c-441f-99ae-f875f8fd5832"
+    }
+}
+
 # ============================================
 # END OF CONFIGURATION
 # ============================================
 
 # Conversation states
-(COURSE_UUID, SEARCH_DATE, START_TIME, END_TIME, NUM_PLAYERS, 
+(COURSE_SELECTION, SEARCH_DATE, START_TIME, END_TIME, NUM_PLAYERS, 
  CHECK_INTERVAL, SEARCH_NAME, EMAIL_RECIPIENT) = range(8)
 
 class SweetspotTelegramBot:
@@ -181,7 +193,7 @@ class SweetspotTelegramBot:
         conv_handler = ConversationHandler(
             entry_points=[CommandHandler('new', self.new_search_start)],
             states={
-                COURSE_UUID: [MessageHandler(filters.TEXT & ~filters.COMMAND, self.get_course_uuid)],
+                COURSE_SELECTION: [CallbackQueryHandler(self.course_selection_callback)],
                 SEARCH_DATE: [MessageHandler(filters.TEXT & ~filters.COMMAND, self.get_search_date)],
                 START_TIME: [MessageHandler(filters.TEXT & ~filters.COMMAND, self.get_start_time)],
                 END_TIME: [MessageHandler(filters.TEXT & ~filters.COMMAND, self.get_end_time)],
@@ -394,23 +406,47 @@ To update email settings, edit the email_config.json file.
         user_id = update.effective_user.id
         context.user_data['search_config'] = {}
         
+        # Create keyboard with course options
+        keyboard = []
+        for course_key, course_info in COURSES.items():
+            keyboard.append([InlineKeyboardButton(course_info["name"], callback_data=f"course_{course_key}")])
+        
+        reply_markup = InlineKeyboardMarkup(keyboard)
+        
         await update.message.reply_text(
             "🔍 *Create New Search*\n\n"
             "Let's create a new tee time search! Follow the prompts.\n\n"
-            "First, please enter the Golf Course UUID:",
+            "First, select a golf course:",
+            parse_mode='Markdown',
+            reply_markup=reply_markup
+        )
+        return COURSE_SELECTION
+    
+    async def course_selection_callback(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        """Handle course selection callback"""
+        query = update.callback_query
+        await query.answer()
+        
+        course_key = query.data.replace("course_", "")
+        
+        if course_key in COURSES:
+            course_info = COURSES[course_key]
+            context.user_data['search_config']['course_uuid'] = course_info["uuid"]
+            context.user_data['search_config']['course_name'] = course_info["name"]
+            
+            await query.edit_message_text(
+                f"✅ Selected: {course_info['name']}\n\n"
+                "Now enter the date (YYYY-MM-DD):\n"
+                "Example: 2024-12-25",
+                parse_mode='Markdown'
+            )
+            return SEARCH_DATE
+        
+        await query.edit_message_text(
+            "❌ Invalid selection. Please try again with /new",
             parse_mode='Markdown'
         )
-        return COURSE_UUID
-    
-    async def get_course_uuid(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        """Get course UUID"""
-        context.user_data['search_config']['course_uuid'] = update.message.text.strip()
-        await update.message.reply_text(
-            "✅ Got it!\n\n"
-            "Now enter the date (YYYY-MM-DD):\n"
-            "Example: 2024-12-25"
-        )
-        return SEARCH_DATE
+        return COURSE_SELECTION
     
     async def get_search_date(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         """Get search date"""
@@ -546,6 +582,7 @@ To update email settings, edit the email_config.json file.
         """Finish creating search and save it"""
         config = context.user_data['search_config']
         search_name = config.pop('name')
+        course_name = config.get('course_name', 'Unknown Course')
         
         # Calculate end time (when search should stop)
         search_date = datetime.strptime(config['date'], '%Y-%m-%d')
@@ -555,6 +592,7 @@ To update email settings, edit the email_config.json file.
         # Build full config
         full_config = {
             "course_uuid": config['course_uuid'],
+            "course_name": course_name,
             "search_criteria": {
                 "date": config['date'],
                 "start_time": config['start_time'],
@@ -609,6 +647,7 @@ To update email settings, edit the email_config.json file.
         await update.message.reply_text(
             f"✅ *Search '{search_name}' created successfully!*\n\n"
             f"*Configuration:*\n"
+            f"⛳ Course: {course_name}\n"
             f"📅 Date: {config['date']}\n"
             f"⏰ Time: {config['start_time']} - {config['end_time']}\n"
             f"👥 Players: {config['num_players']}\n"
